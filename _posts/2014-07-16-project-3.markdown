@@ -1,0 +1,15 @@
+---
+title: Class Groupware
+subtitle: Website Design
+layout: default
+modal-id: 3
+date: 2014-07-16
+img: cgw.png
+thumbnail: cgw.png
+alt: image-alt
+project-date: 2018.10 ~ 2018.12
+client: 4 ( 수업, 출결, 일정, 성적, 알림 기능 개발 )
+category: Web Development
+description: 학원 및 학교에서 강사과 학생이 사용할 수 있는 클래스 그룹웨어입니다. 기존에 존재하던 기업용 그룹웨어에서 아이디어를 얻어 만들게 되었습니다. 수강 중인 클래스마다 출결, 일정, 성적, 과제게시판, 자유게시판, 자료실 페이지를 갖습니다. 로그인 후 사용자는 원하는 클래스 페이지를 클릭해 해당 수업 페이지를 이용할 수 있습니다. 로그인한 사용자에 따라 접근 권한과 기능이 달라집니다.
+
+---

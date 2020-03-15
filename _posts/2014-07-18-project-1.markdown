@@ -1,0 +1,15 @@
+---
+title: CINEBIRD
+subtitle: Data Crawling
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cinebird.png
+thumbnail: cinebird.png
+alt: image-alt
+project-date: 2019.10 ~ 2019.11
+client: 5 ( 팀장, 데이터 크롤링, 웹 디자인 )
+category: Web Development
+description: 씨네버드는 영화를 보고 관객들이 느끼는 감정의 분포를 SNS(트위터)를 통해 탐색하여 영화 실제 평가를 파악하는데 목적을 두고 있습니다. 사용자에게 입력 받은 영화 제목을 기준으로 네이버 영화 페이지에서 영화 정보를 크롤링합니다. 이때 얻은 영화의 정확한 제목과 개봉일을 기준으로 트윗을 크롤링합니다. 크롤링된 트윗 텍스트 중 유효한 데이터에 한해 감정 어휘를 추출하고 감정 어휘 사전을 이용해 텍스트 데이터를 정제하여 감정 어휘 값을 생성합니다. 최종적으로 해당 영화의 정보, 감정 평가 결과, 워드클라우드를 사용자에게 제공합니다.
+
+---
