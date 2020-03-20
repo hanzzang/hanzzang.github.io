@@ -8,8 +8,11 @@ img: sudoku.png
 thumbnail: sudoku.png
 alt: image-alt
 project-date: 2019.01
-client: Start Bootstrap
-category: Web Development
+client: 1
+os: Window10 64bit
+language: Java
+ide: Eclipse(Luna)
+skill: Swing, AWT
 description: SM Sudoku는 Eclipse를 이용해 Java 코드로 제작했습니다. Mark 기능과 Undo/Redo 기능 지원되고, Undo to Last Good도 지원됩니다. 입력은 키보드와 마우스 둘다 가능합니다. Level은 시작시 주어지는 숫자수에 따라 Easy, Medium, Hard, Extreme으로 나뉘어집니다.
 
 ---

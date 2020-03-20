@@ -9,7 +9,10 @@ thumbnail: travel.png
 alt: image-alt
 project-date: 2018.09 ~ 2018.12
 client: 1
-category: Web Development
+os: Window10 64bit, Oracle 11g Release2
+language: Java
+ide: Eclipse(sts)
+skill: Javascrpit, HTML, CSS / Spring, MyBatis, Maven, Servlet, jQuery, Bootstrap
 description: MVC 패턴의 SNS형 여행 기록 블로그 입니다. 기본적으로 페이스북 등과 같은 SNS 시스템을 주기능으로 하되, 검색 기능과 주제가 여행에 초점이 맞춰져 있습니다. 글을 올리는 사용자는 여행지에서 찍은 사진이나 정보를 태그(검색어)와 함께 작성합니다. 글을 읽는 사용자는 여행지, 명소, 맛집 등을 검색해서 다른 사용자의 게시글을 열람할 수 있습니다. 각 게시글 별로 좋아요와 댓글 기능이 가능하고, 사이트 내에서 친구 맺기가 가능합니다.
 
 ---
