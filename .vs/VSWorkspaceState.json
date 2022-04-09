@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_posts"
+    "\\assets",
+    "\\assets\\images",
+    "\\_sass",
+    "\\_sass\\minimal-mistakes",
+    "\\_sass\\minimal-mistakes\\skins"
   ],
+  "SelectedNode": "\\_sass\\minimal-mistakes\\skins\\_custom.scss",
   "PreviewInSolutionExplorer": false
 }
