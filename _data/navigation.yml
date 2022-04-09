@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Yearly"
-    url:
+    url: /year-archive/
   - title: "Monthly"
     url: /month-archive/
   - title: "Tag"
