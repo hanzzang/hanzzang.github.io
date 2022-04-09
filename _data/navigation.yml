@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
+  - title: "Resume"
+    url: /resume/
   - title: "Yearly"
     url: /year-archive/
   - title: "Monthly"
