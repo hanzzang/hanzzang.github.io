@@ -2,7 +2,7 @@
 title: "프로젝트 인터뷰 준비"
 excerpt: "프로젝트 인터뷰 준비"
 categories:
-  - interview
+  - Interview
 tags:
   - [interview]
 toc: true
