@@ -64,7 +64,7 @@
         <div class="row">
           <div class="row-left">
             <h5>
-              비대면 중도금 대출 및 전자약정 개발<span class="period-mark">.</span>
+              비대면 중도금 대출 및 전자서명 개발<span class="period-mark">.</span>
             </h5>
             <span class="role">PL 및 BE 개발</span>
             <span class="time"><time datetime="2022-06">2022. 06</time> - 현재</span>
@@ -73,7 +73,8 @@
             <div class="project">
               <h5>What did I do<span class="period-mark">.</span></h5>
               <ul>
-                <li>중도금 대출 및 전자약정 뷰 설계 및 process 개발</li>
+                <li>중도금 대출신청, 전자서명, 공동명의자신청, 채무승계신청 뷰 설계 및 process 개발</li>
+                <li>기존 대출등록, 지급 등 프로세스와 연동 가능하도록 설계 및 개발</li>
                 <li>고객 필수서류(주민등록등본, 초본) 웹스크래핑 적용</li>
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
@@ -84,7 +85,7 @@
         <div class="row">
           <div class="row-left">
             <h5>
-              부동산등기부등본, 공시지가 웹스크래핑 API 개발<span class="period-mark">.</span>
+              부동산등기부등본, 공시지가 웹스크래핑 API 연동 개발<span class="period-mark">.</span>
             </h5>
             <span class="role">PL 및 BE 개발(기여도: 25 %)</span>
             <span class="time"><time datetime="2021-12">2021. 12</time> - <time datetime="2022-06">2022. 06</time></span>
@@ -97,6 +98,7 @@
                 <li>해당 정보 활용 한도산정 시 컷오프 기능 구현</li>
                 <li>서버, 클라이언트간 HTTP 프로토콜 REST 아키텍처 적용</li>
                 <li>ER-win을 통한 DB 논리적/물리적 구조 설계 및 메타 정보 정의</li>
+                <li>스크래핑 데이터에 따른 예외 케이스 및 시나리오 정의</li>
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
               <p>Java, Spring Framework, Devon Framework, JavaScript, xFrame, DB2, Pharos(APM), SVN, Hudson, Jenkins, Anylink</p>
@@ -151,7 +153,7 @@
         <div class="row">
           <div class="row-left">
             <h5>
-              간편인증 연계 시스템 개발<span class="period-mark">.</span>
+              간편인증 연계 공통 라이브러리 개발<span class="period-mark">.</span>
             </h5>
             <span class="role">BE 및 FE 개발(기여도: 50 %)</span>
             <span class="time"><time datetime="2021-10">2021. 10</time> - <time datetime="2021-12">2021. 12</time></span>
@@ -163,6 +165,7 @@
                 <li>카카오페이, 패스, 토스의 간편인증 연계 시스템 구현</li>
                 <li>웹/모바일 채널의 사설인증 연계 공통 웹뷰 설계 및 process 개발</li>
                 <li>대내 API를 통해 카카오페이, 패스, 토스 간편인증 API 적용을 이용한 SDK와 프론트엔드 UI의 실시간 통신 구현</li>
+                <li>공통 라이브러리 개발로 인해 전 상품 도입에 1M/W 소요</li>
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
               <p>Java, Spring Framework, JavaScript, JSP, DB2, Pharos(APM), SVN, Hudson, Jenkins, Anylink</p>
@@ -172,46 +175,24 @@
         <div class="row">
           <div class="row-left">
             <h5>
-              비대면 개인금융 대출 상품 개발<span class="period-mark">.</span>
+              비대면 신규 대출 상품 개발<span class="period-mark">.</span>
             </h5>
             <span class="role">BE 및 FE 개발(기여도: 50 %)</span>
-            <span class="time"><time datetime="2021-06">2021. 06</time> - <time datetime="2021-10">2021. 10</time></span>
+            <span class="time"><time datetime="2021-06">2021. 03</time> - <time datetime="2021-10">2021. 10</time></span>
           </div>
           <div class="row-right">
             <div class="project">
               <h5>What did I do<span class="period-mark">.</span></h5>
               <ul>
-                <li>오토담보론, 아파트신용대출, 아파트담보대출 웹뷰 설계 및 process 개발</li>
-                <li>채널 영업을 위한 연계 페이지 오픈 (PASS, Toss, 티몬, 웰컴저축은행)</li>
+                <li>대외연계대출(우리은행,우리카드) 및 개인금융대출(오토담보론,아파트신용/담보대출) 신규 상품 웹뷰 설계 및 process 개발</li>
+                <li>인터페이스 충돌 방지 Private Module Pattern 적용</li>
+                <li>Base64 URL 인코딩 Value 유출 방지</li>
                 <li>빠른 개발, 재사용성을 고려한 JSTL Core Tag 활용</li>
                 <li>3rd party library 활용 (암복호화, 공동인증, 백신, 위변조, 난독화, 가상키패드, MDM)</li>
                 <li>step 별 session 관리로 중간 이탈자도 재접속 시 진행 유지 (session 1h 유지, DB 1day 유지)</li>
               </ul>
               <h5>Tech Stack<span class="period-mark">.</span></h5>
               <p>Java, Spring Framework, JavaScript, JSP, DB2, Pharos(APM), SVN, Hudson, Jenkins, Anylink</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="row-left">
-            <h5>
-              비대면 연계 대출 상품 개발<span class="period-mark">.</span>
-            </h5>
-            <span class="role">BE 및 FE 개발(기여도: 50 %)</span>
-            <span class="time"><time datetime="2021-03">2021. 03</time> - <time datetime="2021-06">2021. 06</time></span>
-          </div>
-          <div class="row-right">
-            <div class="project">
-              <h5>What did I do<span class="period-mark">.</span></h5>
-              <ul>
-                <li>웹/모바일 비대면 연계대출(우리카드, 우리은행) 웹뷰 설계 및 process 개발</li>
-                <li>인터페이스 충돌 방지 Private Module Pattern 적용</li>
-                <li>Base64 URL 인코딩 Value 유출 방지</li>
-                <li>3rd party library 활용 (암복호화, 공동인증, 백신, 위변조, 난독화, 가상키패드, MDM)</li>
-                <li>step 별 session 관리로 중간 이탈자도 재접속 시 진행 유지 (session 1h 유지, DB 1day 유지)</li>
-              </ul>
-              <h5>Tech Stack<span class="period-mark">.</span></h5>
-              <p>Java, Spring Framework, JavaScript, jQuery, DB2, Pharos(APM), SVN, Hudson, Jenkins, Anylink</p>
             </div>
           </div>
         </div>
